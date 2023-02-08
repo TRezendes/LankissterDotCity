@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Lankisster City Animation Test Page</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+    body {
+        background-color: #ffffff;
+    }
+    .animate1 {
+        animation-name: drop1;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+    }
+    .animate2 {
+        animation-name: drop2;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+        animation-delay: 0.5s;
+    }
+    .animate3 {
+        animation-name: drop3;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+        animation-delay: 1s;
+    }
+    .animate4 {
+        animation-name: drop4;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+        animation-delay: 1.5s;
+    }
+    .animate5 {
+        animation-name: drop5;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+        animation-delay: 2s;
+    }
+    .animate6 {
+        animation-name: drop6;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+        animation-delay: 2.5s;
+    }
+    .style1 {
+        background: #488c00;
+        width: 120%;
+        box-shadow: 0 -1px 20px 4px #444444;
+        position: absolute;
+        top: 50%;
+        margin-left: -20px;
+        transform: skewY(-8deg);
+        z-index: -2;
+        height: 150%
+    }
+    .style2 {
+        position: absolute;
+        top: 50%;
+        z-index: 2;
+        background: #488c00;
+        transform: translateY(80px);
+        height: 120%;
+        margin-left: -20px;
+        padding-left: 20px;
+    }
+    .style3 {
+        background: #9d9d00;
+        width: 120%;
+        box-shadow: 0 -1px 20px 4px #444444;
+        position: absolute;
+        top:48%;
+        margin-left: -20px;
+        transform: skewY(-8deg);
+        z-index: -3;
+        height: 150%
+    }
+    .style4 {
+        background: #9d7a00;
+        width: 120%;
+        box-shadow: 0 -2px 20px 4px #444444;
+        position: absolute;
+        top:48%;
+        margin-left: -20px;
+        transform: skewY(-8deg);
+        z-index: -4;
+        height: 150%
+    }
+    .style5 {
+        background: #9d3500;
+        width: 120%;
+        box-shadow: 0 -1px 20px 4px #444444;
+        position: absolute;
+        top:48%;
+        margin-left: -20px;
+        transform: skewY(-8deg);
+        z-index: -5;
+        height: 150%
+    }
+    .style6 {
+        background: #9d009d;
+        width: 120%;
+        box-shadow: 0 -1px 20px 4px #444444;
+        position: absolute;
+        top:48%;
+        margin-left: -20px;
+        transform: skewY(-8deg);
+        z-index: -6;
+        height: 150%
+    }
+    .style7 {
+        background: #00359d;
+        width: 120%;
+        box-shadow: 0 -10px 50px 2px #333333;
+        position: absolute;
+        top:48%;
+        margin-left: -20px;
+        transform: skewY(-8deg);
+        z-index: -7;
+        height: 150%
+    }
+    /* @keyframes drop1 {
+        0% { top: -50%; }
+        80% { top: 50%; }
+        90% { top: 49%; }
+        100% { top: 50% }
+    } */
+    @keyframes drop1 {
+        0% { top: 38%; left: 100%; }
+        80% { top: 50%; left: 0%; }
+        90% { top: 50%; left: 1%; }
+        100% { top: 50%; left: 0%; }
+    }
+    @keyframes drop2 {
+        0% { top: -50%; }
+        80% { top: 47%; }
+        90% { top: 46%; }
+        100% { top: 47% }
+    }
+    @keyframes drop3 {
+        0% { top: -50%; }
+        80% { top: 44%; }
+        90% { top: 43%; }
+        100% { top: 44% }
+    }
+    @keyframes drop4 {
+        0% { top: -50%; }
+        80% { top: 41%; }
+        90% { top: 40%; }
+        100% { top: 41% }
+    }
+    @keyframes drop5 {
+        0% { top: -50%; }
+        80% { top: 38%; }
+        90% { top: 37%; }
+        100% { top: 38% }
+    }
+    @keyframes drop6 {
+        0% { top: -50%; }
+        80% { top: 35%; }
+        90% { top: 34%; }
+        100% { top: 35% }
+    }
+</style>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<body>
+
+<!-- <img src="img_la.jpg" alt="LA" style="width:100%"> -->
+
+<!-- <div class="w3-container w3-black">
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+</div> -->
+
+<div class="style1 animate1">
+    &nbsp;
+</div>
+<div class="style2 animate1">
+    Here is some text for my div.
+</div>
+<div class="style3 animate2">
+    &nbsp;
+</div>
+<div class="style4 animate3">
+    &nbsp;
+</div>
+<div class="style5 animate4">
+    &nbsp;
+</div>
+<div class="style6 animate5">
+    &nbsp;
+</div>
+<div class="style7 animate6">
+    &nbsp;
+</div>
+</body>
+</html>
