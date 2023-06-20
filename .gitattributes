@@ -1,0 +1,2 @@
+# Exclude w3.css from GitHub repo language statistics
+static/css/w3.css linguist-vendored
